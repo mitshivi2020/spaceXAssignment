@@ -1,0 +1,43 @@
+<p-card header="Filters">
+    <div>
+        <div class="text-center">
+            <span><b><u>Launch Year</u></b></span>
+        </div>
+        <div class="flex-container">
+            <div *ngFor="let year of years" class="mt-2">
+                <p-button label="{{year}}"></p-button>
+            </div>
+        </div>
+        <div class="successful-launch-div">
+            <div class="mt-4 text-center">
+                <span><b><u>Successful Launch</u></b></span>
+            </div>
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="col-6">
+                        <p-button label="true"></p-button>
+                    </div>
+                    <div class="col-6">
+                        <p-button label="false"></p-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="successful-landing-div">
+            <div class="mt-4 text-center">
+                <span><b><u>Successful Landing</u></b></span>
+            </div>
+            <div class="container mt-2">
+                <div class="row">
+                    <div class="col-6">
+                        <p-button label="true"></p-button>
+                    </div>
+                    <div class="col-6">
+                        <p-button label="false"></p-button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</p-card>

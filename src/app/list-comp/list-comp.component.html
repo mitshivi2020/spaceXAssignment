@@ -1,0 +1,6 @@
+<!-- <p>list-comp works!</p> -->
+<div style="display: flex; flex-flow: row wrap;">
+    <div style="flex:20%" *ngFor="let card of craftList" class="mr-2 mb-2">
+        <app-card-detail [item]="card"></app-card-detail>
+    </div>
+</div>

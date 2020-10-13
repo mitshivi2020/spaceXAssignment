@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-container div {
+    flex: 50%
+}
+
+font{
+    font-size: 12px;
+}
